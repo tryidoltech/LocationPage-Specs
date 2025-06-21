@@ -17,9 +17,9 @@ function App() {
   return (
     <>
     <div className=''>
-       <Booknow/>
       <Whyus/>
       <Faq/>
+       <Booknow/>
       <Testimonial/>
       <Service/>
       <Area/>
