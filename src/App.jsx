@@ -10,6 +10,9 @@ import Testimonial from './componets/Testimonial'
 import Service from './componets/Service'
 import Area from './componets/Area'
 import Form from './componets/Form'
+import Second from './componets/Second'
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,9 +20,9 @@ function App() {
   return (
     <>
     <div className=''>
+      <Second/>
       <Whyus/>
       <Faq/>
-       <Booknow/>
       <Testimonial/>
       <Service/>
       <Area/>
