@@ -11,6 +11,7 @@ import Service from './componets/Service'
 import Area from './componets/Area'
 import Form from './componets/Form'
 import Second from './componets/Second'
+import Hero from './componets/Hero'
 
 
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
     <div className=''>
+      <Hero/>
       <Second/>
       <Whyus/>
       <Faq/>
