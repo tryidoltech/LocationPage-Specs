@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 import './App.css'
-import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route } from 'react-router-dom'
 import Booknow from './componets/Booknow'
 import Whyus from './componets/Whyus'
@@ -13,25 +12,20 @@ import Form from './componets/Form'
 import Second from './componets/Second'
 import Hero from './componets/Hero'
 
-
-
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
-    <div className=''>
-      <Hero/>
-      <Second/>
-      <Whyus/>
-      <Faq/>
-      <Testimonial/>
-      <Service/>
-      <Area/>
-      <Form/>
+    <div className="overflow-x-hidden w-full">
+      <Hero />
+      <Second />
+      <Whyus />
+      <Faq />
+      <Testimonial />
+      <Service />
+      <Area />
+      <Form />
     </div>
-     
-    </>
   )
 }
 
